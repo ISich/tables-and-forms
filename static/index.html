@@ -9,7 +9,23 @@
 <main>
     <h1>Найди себе друга!</h1>
 
-    <!--Форму размещай тут-->
+    <form name="pets "action="/pets/orders" method="POST">
+
+        <div class="form-example">
+          <label for="petType">Enter your petType: </label>
+          <input type="text" name="petType" id="petType" required />
+        </div>
+
+        <div class="form-example">
+            <label for="gender">Enter your gender: </label>
+            <input type="text" name="gender" id="gender" required />
+        </div>
+
+        <div class="form-example">
+          <input type="submit" value="Subscribe!" />
+        </div>
+
+      </form>
 
 </main>
 </body>
